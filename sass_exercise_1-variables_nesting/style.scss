@@ -1,0 +1,34 @@
+$color-primary: red;
+$color-tertiary: green;
+$blue-color: blue;
+.articles {
+  border: 1.5px solid $color-tertiary;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.exercise {
+  border: 1.5px solid $color-primary;
+  text-align: center;
+  padding: 15px;
+  padding-top: 20px;
+
+  .exercise-title {
+    color: $color-tertiary;
+    border-bottom: 1.5px solid $blue-color;
+    width: 47%;
+    margin: auto;
+  }
+
+  .article-container {
+    display: flex;
+  }
+  .blue-article {
+    @extend .articles;
+    color: $blue-color;
+  }
+  .red-article {
+    @extend .articles;
+    color: $color-primary;
+  }
+}

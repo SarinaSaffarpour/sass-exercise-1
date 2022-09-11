@@ -1,0 +1,27 @@
+.articles, .exercise .red-article, .exercise .blue-article {
+  border: 1.5px solid green;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.exercise {
+  border: 1.5px solid red;
+  text-align: center;
+  padding: 15px;
+  padding-top: 20px;
+}
+.exercise .exercise-title {
+  color: green;
+  border-bottom: 1.5px solid blue;
+  width: 47%;
+  margin: auto;
+}
+.exercise .article-container {
+  display: flex;
+}
+.exercise .blue-article {
+  color: blue;
+}
+.exercise .red-article {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
